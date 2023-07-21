@@ -1,0 +1,340 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+.cart-empty-view-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.cart-empty-image {
+  width: 300px;
+}
+
+.cart-empty-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 25px;
+  text-align: center;
+  color: #1e293b;
+}
+
+.cart-empty-para {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #64748b;
+}
+.cart-list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0px 1px 4px rgba(7, 7, 7, 0.08);
+  border-radius: 5px;
+  /* border: 1px solid blue; */
+}
+.order-now {
+  position: static;
+  background: #f7931e;
+  border-radius: 8px;
+  position: static;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  border: none;
+  color: #ffffff;
+  height: 32px;
+  width: 85px;
+}
+
+.cart-success-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cart-circle {
+  color: #22c55e;
+  height: 38px;
+  width: 38px;
+}
+
+.cart-success-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 20px;
+  text-align: center;
+  color: #1e293b;
+}
+
+.cart-success-para {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #64748b;
+}
+
+.go-to-home {
+  position: static;
+  background: #f7931e;
+  border-radius: 8px;
+  position: static;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  border: none;
+  color: #ffffff;
+  height: 32px;
+  width: auto;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: inherit;
+}
+
+.cart-item-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  min-height: 100vh;
+}
+
+.hr {
+  border: 1px dashed red;
+  width: 95%;
+}
+
+/* .desktop-heading-container {
+  display: none;
+} */
+
+.mobile-cart-item-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+
+.total-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  padding: 12px;
+}
+
+.order-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 24px;
+  color: #3e4c59;
+}
+.total-amount-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.total-rupee {
+  height: 18px;
+  width: 18px;
+  border-radius: 0px;
+  color: #3e4c59;
+}
+.total-amount {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: right;
+}
+
+.place-order-button {
+  position: static;
+  background: #f7931e;
+  border-radius: 8px;
+  position: static;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  border: none;
+  color: #ffffff;
+  height: 35px;
+  padding-left: 6px;
+  padding-right: 6px;
+  width: 100px;
+  align-self: flex-end;
+  margin-bottom: 16px;
+}
+.item-image {
+  width: 136px;
+  height: 130px;
+  border-radius: 8px;
+}
+
+.cart-item-list-container {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.cart-name-details-container {
+  display: flex;
+  flex-direction: column;
+  height: 130px;
+  margin-left: 8px;
+}
+
+.cart-item-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #183b56;
+}
+
+.item-rate-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.item-rupee {
+  height: 16px;
+  width: 16px;
+  border-radius: 0px;
+  color: #ffa412;
+}
+.item-cost {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: #ffa412;
+}
+.each-item-counter-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4px;
+  height: 30px;
+  width: 60px;
+}
+
+.minus-icon {
+  border: 1px solid #334155;
+  padding: 2px;
+  color: #334155;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+.count-value {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: #334155;
+  font-weight: 500;
+}
+.plus-icon {
+  border: 1px solid #334155;
+  padding: 2px;
+  color: #334155;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+.minus-icon-container {
+  border: none;
+  background-color: transparent;
+}
+.plus-icon-container {
+  border: none;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .each-item-counter-container {
+    width: auto;
+  }
+  .minus-icon {
+    font-size: 16px;
+  }
+  .plus-icon {
+    font-size: 16px;
+  }
+  .count-value {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
+.item-rate-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.item-rupee {
+  height: 16px;
+  width: 16px;
+  border-radius: 0px;
+  color: #ffa412;
+}
+.item-cost {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: #ffa412;
+}

@@ -1,0 +1,128 @@
+:root {
+  --font: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.login-container {
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 800vh;
+  border-radius: 0px;
+  background: #ffffff;
+  justify-content: center;
+  align-items: center;
+  margin-left: 270px;
+  gap: 115px;
+  padding-left: 140px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  height: 523px;
+  background: #fefeff;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  border-radius: 8px;
+  padding: 20px;
+}
+.logo {
+  width: 65px;
+  height: 55px;
+}
+.heading {
+  color: #f7931e;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 32px;
+}
+.login-heading {
+  color: var(--light-blue-gray-900, #0f172a);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+.label {
+  color: var(--light-blue-gray-600, #475569);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+}
+.input {
+  height: 45px;
+  width: 360px;
+  top: 24px;
+  background: #e2e8f0;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  padding-left: 8px;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 14px;
+}
+
+.login-btn {
+  background: #f7931e;
+  border-radius: 8px;
+  height: 45px;
+  width: 360px;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0;
+  margin-top: 20px;
+}
+.img-container {
+  width: 55%;
+  height: 100%;
+}
+.image {
+  height: 100vh;
+  width: 700px;
+  position: top relative;
+  align-self: flex-end;
+}
+.erroe-msg {
+  height: 18px;
+  width: 273px;
+  left: 213px;
+  top: 654px;
+  border-radius: nullpx;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ef4444;
+}
